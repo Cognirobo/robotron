@@ -25,7 +25,7 @@ We will build a powerfull and adeptabel Robotplatform
   * drawings how the robot will look
   * Pictures 
 
-**Have fun!!**
+**Have fun with Markdown to make it look realy cool**
   
-
+https://guides.github.com/features/mastering-markdown/
   
