@@ -4,7 +4,7 @@
   * Update everybody how to use Git
   * Idears for our collaboration and wiki
 * Mechanical design
-  * Document all the stuff that Jan made to Git __ Boring __
+  * Document all the stuff that Jan made to Git __Boring__
     * Calculations and requirements
     * Blueprints for the robot
   * make a concept for the wheel, axis and engin Powertrain
@@ -25,7 +25,7 @@
   * TDD, BDD, CI, UT, Mocksupport etc. 
   * This acronyms are worst the Time!! I will tell you what I mean, and will not be mean
 * Front design 
-  * draw how the robot will look __ FUN FOR FRAUKE ?? __
+  * draw how the robot will look __FUN FOR FRAUKE ??__
   * Pictures 
 
 Tell me what you planed for this just edit this file :-)
