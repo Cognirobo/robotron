@@ -28,4 +28,8 @@ We will build a powerful and adaptable Robotplatform
 **Have fun with Markdown to make it look really cool**
   
 https://guides.github.com/features/mastering-markdown/
+
+**Nice tool for windows to see the branches and commits
+
+https://desktop.github.com/
   
