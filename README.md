@@ -1,4 +1,4 @@
-# robotron
+# robotron Go Biatxh
 our first own robot
 
 Welcome to our robotron!!
