@@ -1,6 +1,8 @@
 # robotron
 our first own robot
 
+![Robotron Logo](Robotron_1.png)
+
 Welcome to our robotron!!
 Here we can handle all documents, scripts and code for our robot
 Here is a basic stucture, please feel free to add, edit and extend if it is needed.
