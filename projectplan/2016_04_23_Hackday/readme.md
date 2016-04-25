@@ -1,8 +1,8 @@
 # Proposals for the Hackday on 23.04.2016
 
 * Project Plan
-  - [x] Update everybody how to use Git
-  - [x] Ideas for our collaboration and wiki
+  * Update everybody how to use Git
+  * Ideas for our collaboration and wiki
 * Mechanical design
   * Documents of all the stuff that Jan made to Git __Boring__
     * Calculations and requirements
@@ -12,11 +12,12 @@
   * Make a concept for the baseplate, so called chassis, and the placement for battery and otter stuff
 * Electrical design
   * Wireing could be a part of the mechanical design
-  - [x] Blueprints of the electrical circuits
+  - [x] Blueprints of the electrical circuits in Git
   * Calculate engine and talk it over with the team
   - [x] Test PWM-board
   - [x] Solder the circuit board
   - [x] Think about a connection between Arduino and Rasperry Pi or other PC´s
+  - [x] Think about a Powerswitch and Powersupply
   * Think about a controller for the robot
   * Make a concept for the wheels turn measurement
   * Pictures
