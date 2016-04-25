@@ -1,4 +1,4 @@
-# this was done on Hackday on 23.04.2016
+# This was done on Hackday on 23.04.2016
 
 * Electrical design
   - [x] Blueprints of the electrical circuits in Git
