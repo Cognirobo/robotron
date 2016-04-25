@@ -10,4 +10,4 @@ Siedconditions:
   * approximal 5 V for everithing with USB PI
 * overall energy comsumption is not clear has to be investigated
 
-
+![voltage distribution](voltage_distribution.png)
