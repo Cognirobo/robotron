@@ -20,6 +20,7 @@
   * Pictures
 * code
   * add arduino and Pi code to repository
+  * build up a the motorcontroller and Pi controll test it
   * Think about some classes and the environment 
   * TDD, BDD, CI, UT, Mocksupport etc. 
   * This acronyms are worth the time!! I will tell you what I mean, and will not be mean
