@@ -13,7 +13,8 @@
 * Programming 
   - [x] set up Rassbrey PI and Arduino serial communication
   - [x] created a Python script to cummunicate
+  - [x] setup git for commandline in ubuntu 14.04 :-)
 
 * Pictures and clips
-  - [x] Upploaded some Images, we will see if this is working :-)
+  - [x] Upploaded some Images and clips
 
