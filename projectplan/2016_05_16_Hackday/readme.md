@@ -15,5 +15,5 @@
   - [x] created a Python script to cummunicate
 
 * Pictures and clips
-  - we will see if this is working :-)
+  - [x] Upploaded some Images, we will see if this is working :-)
 
