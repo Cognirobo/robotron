@@ -20,19 +20,19 @@ DEVICE = '/dev/ttyACM'+str(com)
 BAUD = 9600
 ser = serial.Serial(DEVICE, BAUD)
 root = Tk()
-def five() :
-  ser.write('5')
+def one() :
+  ser.write('1')
   return
 def two() :
   ser.write('2')
   return
-def seven() :
-  ser.write('7')
+def three() :
+  ser.write('3')
   return
 root.title("Arduino im Test")
-Label(text="Raspberry Pi Geek 05/2013", fg="#0A116B").pack()
-Label(text="RasPi gruesst Arduino!",fg="#0A116B").pack()
-Button(text='2x blinken', command=two, background="#33D63B", fg="#FFFFFF").pack()
-Button(text='5x blinken', command=five, background="#1DE4F2", fg="#FFFFFF").pack()
-Button(text='7x blinken', command=seven, background="#DC0F16", fg="#FFFFFF").pack()
+Label(text="ROBOTRON FORWARD BACKWARD CONTROLLER", fg="#0A116B").pack()
+Label(text="ROBOT YOU LEFT YOUR PANTIES IN MY KITCHEN",fg="#0A116B").pack()
+Button(text='forward', command=one, background="#00cd00", fg="#FFFFFF").pack()
+Button(text='backward', command=two, background="#B03060", fg="#FFFFFF").pack()
+Button(text='stop', command=three, background="#CD0000", fg="#FFFFFF").pack()
 root.mainloop()
