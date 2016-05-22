@@ -53,6 +53,9 @@ void loop()
       digitalWrite(3, LOW);
       digitalWrite(7, LOW);
       digitalWrite(8, LOW);
+      digitalWrite(5, LOW);
+      digitalWrite(6, LOW);
+      delay(20);
     }
   }
  delay(1000);
@@ -65,8 +68,8 @@ int DutyCycle(int Val){
   
   int backValue=0;
   
-  //backValue = Untergrenze+(0.098*Val);
-  backValue=Val/4;
+  backValue = Untergrenze+(0.098*Val);
+  //backValue=Val/4;
   
   return backValue;
 }
