@@ -1,7 +1,7 @@
 # Porposal for the Hackday on 26.05.2016
 
 * Project Plan
-  * Make a plan what we want to do on this day, there are 
+  * Make a plan what we want to do on this day, there are four major points to do.
 * Mechanical design
   * Repair the right wheel 
   * Think about a castorwheel for more mobility
