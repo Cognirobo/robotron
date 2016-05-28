@@ -12,9 +12,9 @@
   - [x] Build in the Powersupply for Powergrid/Batterie switching
   - [x] Test it
 * Software- and System-Architecure
-  - [x] Information pipe from the App to the Motor and maybe back
+  - [x] Information pipe from the PC to the Motor
   - [x] How can we remote controll the robot with a app on a smartphone
-  - [x] What typ of connection can we use BT/WLAN
+  - [x] connection: WLAN SSH 
 * Frond design 
   - [x] draw how the robot will look
   - [x] Pictures all of you have to do this!! 
