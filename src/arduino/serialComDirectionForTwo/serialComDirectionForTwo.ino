@@ -8,12 +8,17 @@ const int pmwPin8 = 8; //motor2 B2
 
 int PotiVal=0;
 int PWM=0;
+int num=0;
 
 void setup()
 {
  pinMode(ledPin, OUTPUT);
  pinMode(A0, INPUT);
  Serial.begin(9600);
+ pinMode(2, OUTPUT);
+ pinMode(3, OUTPUT);
+ pinMode(7, OUTPUT);
+ pinMode(8, OUTPUT);
 }
 void loop()
 {
@@ -21,9 +26,9 @@ void loop()
   
  if (Serial.available())
  {
-  int num = Serial.read() - '0';
+  num = Serial.read() - '0';
   {
-    if(num == 1) {
+    if(num == 1) { //vorwärts
       digitalWrite(ledPin, HIGH);
       digitalWrite(2, HIGH);
       digitalWrite(3, LOW);
@@ -33,9 +38,9 @@ void loop()
       PWM= DutyCycle(PotiVal);
       analogWrite(5, PWM);
       analogWrite(6, PWM);
-      delay(1000);
+      delay(10);
     }
-    if (num == 2) {
+    if (num == 2) { //rückwärts
       digitalWrite(ledPin, HIGH);
       digitalWrite(2, LOW);
       digitalWrite(3, HIGH);
@@ -45,9 +50,33 @@ void loop()
       PWM= DutyCycle(PotiVal);
       analogWrite(5, PWM);
       analogWrite(6, PWM);
-      delay(1000);
+      delay(10);
     }
-    if (num == 3) {
+    if (num == 3) { //links
+      digitalWrite(ledPin, HIGH);
+      digitalWrite(2, HIGH);
+      digitalWrite(3, LOW);
+      digitalWrite(7, LOW);
+      digitalWrite(8, HIGH);
+      PotiVal = analogRead(A0);
+      PWM= DutyCycle(PotiVal);
+      analogWrite(5, PWM);
+      analogWrite(6, PWM);
+      delay(10);
+    }
+    if (num ==4) { //rechts
+      digitalWrite(ledPin, HIGH);
+      digitalWrite(2, LOW);
+      digitalWrite(3, HIGH);
+      digitalWrite(7, HIGH);
+      digitalWrite(8, LOW);
+      PotiVal = analogRead(A0);
+      PWM= DutyCycle(PotiVal);
+      analogWrite(5, PWM);
+      analogWrite(6, PWM);
+      delay(10);
+    }
+    if (num == 5) { //stop
       digitalWrite(ledPin, LOW);
       digitalWrite(2, LOW);
       digitalWrite(3, LOW);
@@ -58,7 +87,7 @@ void loop()
       delay(20);
     }
   }
- delay(1000);
+ //delay(1000);
 }
 }
 

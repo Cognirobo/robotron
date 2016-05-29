@@ -1,25 +1,23 @@
-# Porposal for the Hackday on 26.05.2016
+# This was done on Hackday on 28.05.2016
 
 * Project Plan
-  * Make a plan what we want to do on this day, there are four major points to do.
+  - [x] updated Projektplan
 * Mechanical design
-  * Repair the right wheel 
-  * Think about a castorwheel for more mobility
-  * Make a concept for the baseplate, so called chassis, and the placement for battery and other stuff
-  * Make the Blueprint and bring it online
+  - [x] Repair the right wheel 
+  - [x] Think about a castorwheel for more mobility --> not now, maybe later
+  - [x] Make a concept for the baseplate, so called chassis, and the placement for battery and other stuff
+  - [x] build it
 * Electrical design
-  * Fix the emv/grounding problems
-  * Build in the Powersupply for Powergrid/Batterie switching
-  * Test it
-  * Pictures
+  - [x] Fix the emv/grounding problems
+  - [x] Build in the Powersupply for Powergrid/Batterie switching
+  - [x] Test it
 * Software- and System-Architecure
-  * Information pipe from the App to the Motor and maybe back
-  * How can we remote controll the robot with a app on a smartphone
-  * What typ of connection can we use BT/WLAN
+  - [x] Information pipe from the PC to the Motor
+  - [x] How can we remote controll the robot with a app on a smartphone
+  - [x] connection: WLAN SSH 
 * Frond design 
-  * draw how the robot will look
-  * Think about some more "nice to have stuff" 
-  * Some light or sounds moving head or even arms or weapons nerfgun??
-  * Pictures 
+  - [x] draw how the robot will look
+  - [x] Pictures all of you have to do this!! 
 
-Tell me what you planned for this, just edit this file :-)
+
+
