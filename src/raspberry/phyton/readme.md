@@ -26,6 +26,7 @@ for our case here:
 https://www.raspberrypi.org/documentation/remote-access/ssh/unix.md
 
 our fist atemped you can checkout here:
+https://github.com/Cognirobo/robotron/blob/master/projectplan/2016_05_26_Hackday/images/RoboLution_3.avi
 
 
 
