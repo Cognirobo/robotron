@@ -35,7 +35,7 @@ https://github.com/Cognirobo/robotron/blob/master/projectplan/2016_04_23_Hackday
 * second Hackday
 https://github.com/Cognirobo/robotron/blob/master/projectplan/2016_05_16_Hackday/images/RoboLution_2.avi
 
-* thierd Hackday
+* third Hackday
 https://github.com/Cognirobo/robotron/blob/master/projectplan/2016_05_26_Hackday/images/RoboLution_3.avi
 
 **Have fun with Markdown to make it look really cool**
