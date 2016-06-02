@@ -1,14 +1,14 @@
 #Arduino
-Here are all for testing and productivcode for the Arduino
+Here is everything for testing and productive code for the Arduino
 
 **PMW**
-Produktivcode for the PWM generator
+Produktive code for the PWM generator
 
 **SerialCommunication**
 First draft of the serial communcation on the Arduino
-till now only receiving
+until now only receiving
 
-This is taken from thos site: 
+This is taken from this website: 
 http://www.raspberry-pi-geek.de/Magazin/2013/05/Raspberry-Pi-und-Arduino-Uno-verbinden/%28offset%29/1
 
 **SerialCommunication**

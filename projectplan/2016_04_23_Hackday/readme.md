@@ -5,8 +5,8 @@
   - [x] Test PWM-board
   - [x] Solder the circuit board
   - [x] Think about a connection between Arduino and Rasperry Pi or other PC´s
-  - [x] Think about a Powerswitch and Powersupply
+  - [x] Think about a power switch and power supply
 
 * Code
-  - [x] make a PWM test
+  - [x] Make a PWM test
   - [x] Pictures
