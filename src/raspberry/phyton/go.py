@@ -1,5 +1,9 @@
 #!/usr/bin/python
+<<<<<<< HEAD
 # go.py
+=======
+# ardu2Pi.py
+>>>>>>> 931627eff0109d2d12f4d9228b97e17deaa6a674
 ################
 import serial
 from Tkinter import *

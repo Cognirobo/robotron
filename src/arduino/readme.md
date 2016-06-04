@@ -1,24 +1,29 @@
 #Arduino
-Here are all for testing and productivcode for the Arduino
+Here is everything for testing and productive code for the Arduino
 
-#PMW
-Produktivcode for the PWM generator
+**PMW**
+Produktive code for the PWM generator
 
-#SerialCommunication
+**SerialCommunication**
 First draft of the serial communcation on the Arduino
-till now only receiving
+until now only receiving
 
-This is taken from thos site: 
+This is taken from this website: 
 http://www.raspberry-pi-geek.de/Magazin/2013/05/Raspberry-Pi-und-Arduino-Uno-verbinden/%28offset%29/1
 
-#SerialCommunication
+**SerialCommunication**
 Modifiaction to set the forward and backward settings for the PWM electronic
 
+<<<<<<< HEAD
 #helloRos
 example programm for using rosserial
 setting it up up is taken from here: http://wiki.ros.org/rosserial_arduino/Tutorials/Arduino%20IDE%20Setup
 
 
+=======
+**serialComDirectionForTwo
+Modification to be called via SSH for the go.py
+>>>>>>> 931627eff0109d2d12f4d9228b97e17deaa6a674
 
 
 

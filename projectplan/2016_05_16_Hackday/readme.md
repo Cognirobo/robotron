@@ -6,15 +6,15 @@
   - [x] test on street, works fine
 
 * Electrical design
-  - [x] build up Powertrain
+  - [x] build up power train
   - [x] each motor is controlled by a resistor
   - [x] check out the clip
 
 * Programming 
-  - [x] set up Rassbrey PI and Arduino serial communication
-  - [x] created a Python script to cummunicate
+  - [x] set up Rasberry PI and Arduino serial communication
+  - [x] create a Python script to communicate
   - [x] setup git for commandline in ubuntu 14.04 :-)
 
 * Pictures and clips
-  - [x] Upploaded some Images and clips
+  - [x] Upload some images and clips
 
