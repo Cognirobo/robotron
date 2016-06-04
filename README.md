@@ -46,4 +46,10 @@ https://guides.github.com/features/mastering-markdown/
 **Nice tool for windows to see the branches and commits**
 
 https://desktop.github.com/
+
+**Nice tool to make UML and other charts**
+
+http://de.plantuml.com/
+and the online version:
+http://www.planttext.com/planttext
   
