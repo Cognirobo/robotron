@@ -16,7 +16,7 @@ To start Arduino serial:
 rosrun rosserial_python serial_node.py /dev/ttyACM0
 
 nice to have/see:
-rostopic echo chatter
+rostopic echo /robotron --> when the app is started
 rostopic list
 
 when you will connect from a different PC use:
