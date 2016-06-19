@@ -3,11 +3,15 @@
 
     <string name="app_name">Robotron Controller</string>
     <string name="My_Text">Controll the Robotron!!</string>
-    <string name="Start_publisher">Start Publisher</string>
-    <string name="Stop_publisher">Stop publisher</string>
+    <string name="My_Text_2">Not Active till now!! Fuck do not click it!!</string>
+    <string name="Start_Robotron">Start Robotron</string>
+    <string name="Stop_Robotron">Stop Robotron</string>
     <string name="Speed_up">Speed Up</string>
     <string name="Slow_down">Slow Down</string>
     <string name="Forward">Go Forward</string>
     <string name="Backward">Go Backward</string>
+    <string name="Turn_left">Turn Left</string>
+    <string name="Turn_right">Turn right</string>
+
 
 </resources>

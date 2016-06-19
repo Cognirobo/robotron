@@ -51,9 +51,12 @@ public class MainActivity extends RosActivity {
         Button startPublisher = (Button) findViewById(R.id.start_publisher);
         Button goForward = (Button) findViewById(R.id.go_forward);
         Button goBackward = (Button) findViewById(R.id.go_backward);
-        Button speedUp = (Button) findViewById(R.id.speed_up);
-        final Button slowDown = (Button) findViewById(R.id.slow_down);
+        final Button turnLeft = (Button) findViewById(R.id.turn_left);
+        Button turnRight = (Button) findViewById(R.id.turn_right);
         Button stopPublisher = (Button) findViewById(R.id.stop_publisher);
+
+        Button speedUp = (Button) findViewById(R.id.speed_up);
+        Button slowDown = (Button) findViewById(R.id.slow_down);
 
         startPublisher.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -61,14 +64,12 @@ public class MainActivity extends RosActivity {
                 startPublisherClicked();
             }
         });
-
         goForward.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 goForwardClicked();
             }
         });
-
         goBackward.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -76,6 +77,26 @@ public class MainActivity extends RosActivity {
             }
         });
 
+        turnLeft.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                turnLeftClicked();
+            }
+        });
+
+        turnRight.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                turnRightClicked();
+            }
+        });
+
+        stopPublisher.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                stopPublisherClicked();
+            }
+        });
         speedUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -83,19 +104,13 @@ public class MainActivity extends RosActivity {
             }
 
         });
-
         slowDown.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 slowDownClicked();
             }
         });
-        stopPublisher.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view) {
-                    stopPublisherClicked();
-            }
-        });
+
     }
 
     public void startPublisherClicked() {
@@ -111,26 +126,22 @@ public class MainActivity extends RosActivity {
     }
 
     public void goForwardClicked() {
-        this.node.setMyOwnString("f");
+        this.node.setMyOwnInt(10);
     }
 
     public void goBackwardClicked() {
-        this.node.setMyOwnString("b");
+        this.node.setMyOwnInt(100);
     }
 
-    public void slowDownClicked() {
-        i = i-10;
-        this.node.setMyOwnInt(i);
+    public void turnLeftClicked() {this.node.setMyOwnInt(1000);}
+
+    public void turnRightClicked() {this.node.setMyOwnInt(10000);}
+
+    public void stopPublisherClicked() { this.node.setMyOwnInt(100000); }
+
+    public void slowDownClicked() { //this.node.setMyOwnInt(0);
     }
 
-    public void speedupClicked() {
-        i = i+10;
-        this.node.setMyOwnInt(i);
-    }
-
-    public void stopPublisherClicked() {
-        this.node.setMyOwnString(atStartUp);
-        this.node.setMyOwnInt(0);
-        this.nodeMainExecutor.shutdown();
+    public void speedupClicked() { //this.node.setMyOwnInt(10);
     }
 }

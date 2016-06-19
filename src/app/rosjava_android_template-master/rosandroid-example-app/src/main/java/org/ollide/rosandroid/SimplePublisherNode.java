@@ -54,14 +54,14 @@ public class SimplePublisherNode extends AbstractNodeMain implements NodeMain {
                 //String time = new SimpleDateFormat("HH:mm:ss").format(new Date());
 
                 //Log.i(TAG, "publishing the Robotron current time: " + time + myOwnInt);
-
+                String strI = "" + myOwnInt;
                 // create and publish a simple string message
                 std_msgs.String str = publisher.newMessage();
-                str.setData(myOwnString+ myOwnInt);
+                str.setData(strI);
                 publisher.publish(str);
 
                 // go to sleep for one second
-                Thread.sleep(250);
+                Thread.sleep(200);
            }
         };
         connectedNode.executeCancellableLoop(loop);
