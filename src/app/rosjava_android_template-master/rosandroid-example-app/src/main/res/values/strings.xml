@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">RosTemplate</string>
-    <string name="ros_introduction">This is an example application from github.com/ollide/rosjava_android_template!\n\nIf you\'re connected to a running ROS master, the SimplePublisherNode publishes the current time every second to the /time topic. Execute \'rostopic echo /time\' to validate that everything\'s working as expected.</string>
+    <string name="app_name">Robotron Controller</string>
+    <string name="My_Text">Controll the Robotron!!</string>
     <string name="Start_publisher">Start Publisher</string>
-    <string name="Increment_by_10">Increment by 10</string>
+    <string name="Stop_publisher">Stop publisher</string>
+    <string name="Speed_up">Speed Up</string>
+    <string name="Slow_down">Slow Down</string>
+    <string name="Forward">Go Forward</string>
+    <string name="Backward">Go Backward</string>
 
 </resources>

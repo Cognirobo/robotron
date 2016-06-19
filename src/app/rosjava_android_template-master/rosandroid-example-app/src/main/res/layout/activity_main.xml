@@ -9,7 +9,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:text="@string/ros_introduction"
+        android:text="@string/My_Text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:autoLink="web"
@@ -20,17 +20,58 @@
         android:layout_height="wrap_content"
         android:text="@string/Start_publisher"
         android:id="@+id/start_publisher"
+        android:layout_marginTop="49dp"
+        android:nestedScrollingEnabled="false"
         android:layout_below="@+id/textView2"
-        android:layout_marginTop="69dp"
-        android:nestedScrollingEnabled="false" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Increment_by_10"
-        android:id="@+id/Incremet_by_10"
-        android:layout_alignTop="@+id/start_publisher"
-        android:layout_alignRight="@+id/textView2"
-        android:layout_alignEnd="@+id/textView2" />
+        android:text="@string/Speed_up"
+        android:id="@+id/speed_up"
+        android:layout_marginBottom="60dp"
+        android:layout_above="@+id/stop_publisher"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Stop_publisher"
+        android:id="@+id/stop_publisher"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="34dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Slow_down"
+        android:id="@+id/slow_down"
+        android:layout_alignBottom="@+id/speed_up"
+        android:layout_toRightOf="@+id/stop_publisher"
+        android:layout_toEndOf="@+id/stop_publisher" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Forward"
+        android:id="@+id/go_forward"
+        android:layout_below="@+id/start_publisher"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="56dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Backward"
+        android:id="@+id/go_backward"
+        android:layout_alignBottom="@+id/go_forward"
+        android:layout_toRightOf="@+id/start_publisher"
+        android:layout_toEndOf="@+id/start_publisher" />
 
 </RelativeLayout>

@@ -32,7 +32,7 @@ public class MainActivity extends RosActivity {
     private SimplePublisherNode node = new SimplePublisherNode();
     private NodeMainExecutor nodeMainExecutor;
     int i = 0;
-    long waitingTimeFortheNode = 3000;
+    String atStartUp;
 
     public MainActivity() {
         super("RosAndroidExample", "RosAndroidExample");
@@ -49,39 +49,88 @@ public class MainActivity extends RosActivity {
     protected void init(NodeMainExecutor nodeMainExecutor) {
         this.nodeMainExecutor = nodeMainExecutor;
         Button startPublisher = (Button) findViewById(R.id.start_publisher);
-        Button off = (Button) findViewById(R.id.Incremet_by_10);
+        Button goForward = (Button) findViewById(R.id.go_forward);
+        Button goBackward = (Button) findViewById(R.id.go_backward);
+        Button speedUp = (Button) findViewById(R.id.speed_up);
+        final Button slowDown = (Button) findViewById(R.id.slow_down);
+        Button stopPublisher = (Button) findViewById(R.id.stop_publisher);
+
         startPublisher.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startPublisherClicked();
             }
-
         });
-        off.setOnClickListener(new View.OnClickListener(){
+
+        goForward.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                    incrementBy10Clicked();
-
-
+                goForwardClicked();
             }
-        })
-        ;
+        });
 
+        goBackward.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                goBackwardClicked();
+            }
+        });
 
-    }
+        speedUp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                speedupClicked();
+            }
 
-    public void incrementBy10Clicked() {
-        i = i+10;
-        this.node.setMyOwnInt(i);
+        });
+
+        slowDown.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                slowDownClicked();
+            }
+        });
+        stopPublisher.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                    stopPublisherClicked();
+            }
+        });
     }
 
     public void startPublisherClicked() {
-        i = 10;
+        i = 0;
+        atStartUp = ("");
         NodeConfiguration nodeConfiguration = NodeConfiguration.newPublic(InetAddressFactory.newNonLoopback().getHostAddress());
         nodeConfiguration.setMasterUri(getMasterUri());
         //this.node.setMyOwnString("bla");
         this.node.setMyOwnInt(i);
+        this.node.setMyOwnString(atStartUp);
         this.nodeMainExecutor.execute(this.node, nodeConfiguration);
 
+    }
+
+    public void goForwardClicked() {
+        this.node.setMyOwnString("f");
+    }
+
+    public void goBackwardClicked() {
+        this.node.setMyOwnString("b");
+    }
+
+    public void slowDownClicked() {
+        i = i-10;
+        this.node.setMyOwnInt(i);
+    }
+
+    public void speedupClicked() {
+        i = i+10;
+        this.node.setMyOwnInt(i);
+    }
+
+    public void stopPublisherClicked() {
+        this.node.setMyOwnString(atStartUp);
+        this.node.setMyOwnInt(0);
+        this.nodeMainExecutor.shutdown();
     }
 }

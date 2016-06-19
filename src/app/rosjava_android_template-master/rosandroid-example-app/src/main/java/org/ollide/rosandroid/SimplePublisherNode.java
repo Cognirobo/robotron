@@ -43,7 +43,7 @@ public class SimplePublisherNode extends AbstractNodeMain implements NodeMain {
 
     @Override
     public void onStart(ConnectedNode connectedNode) {
-        final Publisher<std_msgs.String> publisher = connectedNode.newPublisher(GraphName.of("time"), std_msgs.String._TYPE);
+        final Publisher<std_msgs.String> publisher = connectedNode.newPublisher(GraphName.of("robotron"), std_msgs.String._TYPE);
 
         final CancellableLoop loop = new CancellableLoop() {
             @Override
@@ -57,11 +57,11 @@ public class SimplePublisherNode extends AbstractNodeMain implements NodeMain {
 
                 // create and publish a simple string message
                 std_msgs.String str = publisher.newMessage();
-                str.setData("The current time is: " + myOwnInt);
+                str.setData(myOwnString+ myOwnInt);
                 publisher.publish(str);
 
                 // go to sleep for one second
-                Thread.sleep(50);
+                Thread.sleep(250);
            }
         };
         connectedNode.executeCancellableLoop(loop);
@@ -69,5 +69,6 @@ public class SimplePublisherNode extends AbstractNodeMain implements NodeMain {
     }
 
     public void setMyOwnInt(int myOwnInt) {this.myOwnInt = myOwnInt;}
+    public void setMyOwnString(String myOwnString) {this.myOwnString = myOwnString;}
 
 }
