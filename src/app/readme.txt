@@ -9,3 +9,7 @@ https://git-scm.com/download/win
 
 Configure Android Studio for git:
 File->Settings...->Version Control->Git
+
+rosjva_android_template-master:
+https://github.com/ollide/rosjava_android_template
+
