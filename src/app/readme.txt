@@ -13,3 +13,6 @@ File->Settings...->Version Control->Git
 rosjva_android_template-master:
 https://github.com/ollide/rosjava_android_template
 
+The curent version of the robotron is working with the rosjava-app
+
+
