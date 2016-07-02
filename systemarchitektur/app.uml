@@ -1,20 +1,20 @@
 [*] --> StartPublisher
 
-state "strats the Publisher without a value" as StartPublisher {
-GoForward : Stuff the Publisher with "f"
-GoBackward : Stuff the publisher with "b"
-SpeedUp : Stuff the publisher with "i++"
-SlowDown : Stuff the publisher with "i--""
+state "starts the Publisher with 0 " as StartPublisher {
+Forward : Stuff the Publisher with "10"
+Backward : Stuff the publisher with "10000"
+Left : Stuff the publisher with "100"
+Right : Stuff the publisher with "1000"
 }
 
-StartPublisher -> GoForward
-StartPublisher -> GoBackward
-StartPublisher -> SpeedUp
-StartPublisher -> SlowDown
-StopApp: Stuff the publisher with "s"
+StartPublisher -> Forward
+StartPublisher -> Backward
+StartPublisher -> Left
+StartPublisher -> Right
+StopApp: Stuff the publisher with "100000"
 
-GoForward -> StopApp
-GoBackward -> StopApp
-SpeedUp -> StopApp
-SlowDown -> StopApp
+Forward -> StopApp
+Backward -> StopApp
+Left -> StopApp
+Right -> StopApp
 StopApp --> [*]

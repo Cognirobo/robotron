@@ -27,11 +27,6 @@ to connect checkt out the with rostopic list if it is working
 
 Webcam: https://www.raspberrypi.org/documentation/usage/webcams/
 
-The microsoft webcam "fill in the type" is not working with the easy driver
-
-luckily a different package is availble just use this as intermediat solution
-The soure for the image is /dev/video0 
-
 
 
 
