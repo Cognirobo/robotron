@@ -27,6 +27,9 @@ We will build a powerful and adaptable Robotplatform
   * drawings how the robot will look
   * Pictures 
 
+**Price**
+For all of you who not studied buissnes stuff. The price is important. Make a good robot with cheap stuff then it will be fantastic with expensive components.
+
 **RoboLution:** Here everyone can see what we have after each Hackday, this we call the RoboLution.
 
 * fist Hackday

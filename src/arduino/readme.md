@@ -14,16 +14,12 @@ http://www.raspberry-pi-geek.de/Magazin/2013/05/Raspberry-Pi-und-Arduino-Uno-ver
 **SerialCommunication**
 Modifiaction to set the forward and backward settings for the PWM electronic
 
-<<<<<<< HEAD
-#helloRos
+**helloRos**
 example programm for using rosserial
 setting it up up is taken from here: http://wiki.ros.org/rosserial_arduino/Tutorials/Arduino%20IDE%20Setup
 
-
-=======
-**serialComDirectionForTwo
+**serialComDirectionForTwo**
 Modification to be called via SSH for the go.py
->>>>>>> 931627eff0109d2d12f4d9228b97e17deaa6a674
 
 
 
