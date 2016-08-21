@@ -15,7 +15,7 @@
   - [x] Information pipe from the PC to the Motor
   - [x] How can we remote control the robot with an app on a smartphone
   - [x] Connection: WLAN SSH 
-* Frond design 
+* Front design 
   - [x] Draw how the robot will look
   - [x] Pictures, all of you have to do this!! 
 

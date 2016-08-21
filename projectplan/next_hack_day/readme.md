@@ -18,7 +18,7 @@
   * make at least a short howto for the sytem
   * Remove the old App, enhance the new one
   * Speed regulation
-* Frond design 
+* Front design 
   * paper disign for the whole Robot
   * Build a nice housing for the Robot
   * Pictures 
