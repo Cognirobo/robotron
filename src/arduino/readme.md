@@ -21,5 +21,11 @@ setting it up up is taken from here: http://wiki.ros.org/rosserial_arduino/Tutor
 **serialComDirectionForTwo**
 Modification to be called via SSH for the go.py
 
+**ros(...)**
+Modifications of listener to fit robotron
+actuall version rosListenerNoPoti
+this is the preparation to give the speed via app
+
+
 
 
