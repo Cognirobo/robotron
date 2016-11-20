@@ -23,7 +23,7 @@ Modification to be called via SSH for the go.py
 
 **ros(...)**
 Modifications of listener to fit robotron
-actuall version rosListenerNoPoti with a softstarter function
+actuall version rosListenerNoPoti
 this is the preparation to give the speed via app
 
 
