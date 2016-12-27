@@ -10,4 +10,4 @@ Side conditions:
   * approximal 5 V for everything with USB PI
 * overall energy consumption is not clear and has to be investigated
 
-![voltage distribution](voltage_distribution.png)
+![voltage distribution](VoltageDistribution.png)
